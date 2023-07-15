@@ -1,0 +1,20 @@
+total = int(input())
+remaining = 1000 - total
+num_of_500_dollar = remaining // 500
+remaining = remaining % 500
+num_of_100_dollar = remaining // 100
+remaining = remaining % 100
+num_of_50_dollar = remaining // 50
+remaining = remaining % 50
+num_of_10_dollar = remaining // 10
+remaining = remaining % 10
+num_of_5_dollar = remaining // 5
+remaining = remaining % 5
+num_of_1_dollar = remaining // 1
+
+print(num_of_500_dollar, end=" ")
+print(num_of_100_dollar, end=" ")
+print(num_of_50_dollar, end=" ")
+print(num_of_10_dollar, end=" ")
+print(num_of_5_dollar, end=" ")
+print(num_of_1_dollar, end="")
